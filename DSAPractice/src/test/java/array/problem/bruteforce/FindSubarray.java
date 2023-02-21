@@ -6,14 +6,14 @@ import org.testng.annotations.Test;
 public class FindSubarray {
 
 	//@Test
-	public void eg1() throws Exception {
+	public void example1() throws Exception {
 		int[] arr = { 1, 7, 4, 3, 1, 2, 1, 5, 1 };
 		int k = 7;
 		findSubarray(arr, k);
 	}
 
 	//@Test
-	public void eg2() throws Exception {
+	public void example2() throws Exception {
 		System.out.println("Method 2");
 		int[] arr = { 1, 7, 4, 3, 1, 2, 1, 5, 1 };
 		int k = 26;
@@ -21,7 +21,7 @@ public class FindSubarray {
 	}
 	
 	@Test
-	public void eg3() throws Exception {
+	public void example3() throws Exception {
 		int[] arr = { 1, 7, 4, 3, 1, 2, 1, 5, 1 };
 		int k = 7;
 		findSubarraySliding(arr, k);

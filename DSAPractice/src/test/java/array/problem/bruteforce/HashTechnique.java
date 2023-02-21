@@ -8,7 +8,7 @@ import java.util.Map;
 public class HashTechnique {
 
 	@Test
-	public void eg1() {
+	public void example1() {
 		int[] arr= {1,2,2,1,2};
 		int k=3;
 		hashTech(arr,k);

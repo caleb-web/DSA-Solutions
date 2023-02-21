@@ -9,21 +9,21 @@ import org.testng.annotations.Test;
 public class MoveToZeros {
 	
 	@Test
-	public void eg1() {
+	public void example1() {
 		int[] nums= {1, 2, 0, 4, 3, 0, 5, 0};
 		int[] sortSquare = method1(nums);
 		assertEquals(true, Arrays.equals(sortSquare, new int[] {1, 2, 4, 3, 5, 0, 0,0 }));
 	}
 	
 	@Test
-	public void eg2() {
+	public void example2() {
 		int[] nums= {1, 2, 0, 0, 0, 3, 6};
 		int[] sortSquare = method2(nums);
 		assertEquals(true, Arrays.equals(sortSquare, new int[] {1, 2, 3, 6, 0, 0, 0 }));
 	}
 	
 	@Test
-	public void eg3() {
+	public void example3() {
 		int[] nums= {1, 2, 3, 4, 5, 6};
 		int[] sortSquare = method2(nums);
 		assertEquals(true, Arrays.equals(sortSquare, new int[] {1, 2, 3, 4, 5, 6 }));

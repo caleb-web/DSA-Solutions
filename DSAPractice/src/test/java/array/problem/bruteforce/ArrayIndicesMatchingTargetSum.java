@@ -20,8 +20,7 @@ public class ArrayIndicesMatchingTargetSum {
 	/*
 	 * Brute Force Approach
 	 * 1. Iterate through the input array 
-	 * 2. Use another for loop and check if index value of outer for loop & index value of inner for loop matches
-	 *    the sum value.
+	 * 2. Use another for loop and check if index value of outer for loop & index value of inner for loop matches the sum value.
 	 * 3. If it matches the sum value, return the same, else throw exception finally.
 	 */
 	

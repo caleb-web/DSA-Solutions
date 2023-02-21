@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class SquareSorted {
 	
 	@Test
-	public void eg1() {
+	public void example1() {
 		int[] nums= {-4,-1,0,3,10};
 		int[] sortSquare = sortSquareUsingSort(nums);
 		assertEquals(true, Arrays.equals(sortSquare, new int[] {0, 1, 9, 16, 100 }));

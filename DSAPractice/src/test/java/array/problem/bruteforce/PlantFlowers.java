@@ -30,8 +30,7 @@ public class PlantFlowers {
 	 * intialize the 2 variable left and right and assign zero to both
 	 * if the index is greater than zero, left=nums[i-1]
 	 * if the less than nums length, right=nums[i+1]
-	 * current element, left and right should be zero, then replace the current index element as 1 and
-	 * Decrement the n value 
+	 * current element, left and right should be zero, then replace the current index element as 1 and decrement the n value 
 	 * if n becomes zero return true
 	 * else return false
 	*/
