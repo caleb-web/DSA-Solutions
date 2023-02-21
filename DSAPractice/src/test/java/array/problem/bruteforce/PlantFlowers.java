@@ -3,6 +3,51 @@ package array.problem.bruteforce;
 import org.testng.annotations.Test;
 
 public class PlantFlowers {
+	
+	/*
+	 * 1) Did I understand the problem? Yes or No !!
+	 *      -> If No, Ask the person to provide more details with example(s)
+	 *      -> If Yes, go to next step !!
+	 *    
+	 *    What is the input(s)
+	 *    What is the expected output?
+	 *    Do I have constraints to solve the problem
+	 *    Do I have all informations to go to next step !!
+	 *    How big your test data set will be?
+	 *    
+	 * 2) Test data set
+	 * 
+	 *      Minimum of 3 data set !! Positive, Edge, Negative
+	 *      Validate with the interviewer if the data set is fine by his/her assumptions
+	 *      
+	 * 3) Do I know how to solve it?
+	 *      
+	 *       Yes - great, is there alternate?
+	 *       No - Can I break down the problem into sub problems?
+	 *       
+	 * 4) Ask for hint(If you dot know to solve)
+	 * 
+	 * 5) Do I know alternate solutions as well?
+	 * 
+	 *       Yes - What are those?
+	 *       No - Thats is still fine, proceed to solution by what you know !!
+	 *       
+	 * 6) If you know the alternate solutions -> find out the O Notations(Performance)
+	 * 
+	 *       Then explain the both or best(depends on time)
+	 *       
+	 *       Approach 1: Start with worst ->Improve(Optimize) -> End up with the best
+	 *       Approach 2: Write down the options and benefits and code the best
+	 *       
+	 * 7) Start always with Pseudo Code
+	 * 
+	 * 8) Implement them in the code(editor)
+	 *       
+	 * 9) Test against the different data set
+	 * 
+	 * 10) If it fails, debug them to solve it !!
+	 *       
+	*/
 
 	@Test
 	public void example1() {
