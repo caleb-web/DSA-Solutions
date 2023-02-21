@@ -1,4 +1,4 @@
-package week1;
+package array.problem.bruteforce;
 
 import static org.testng.Assert.assertEquals;
 

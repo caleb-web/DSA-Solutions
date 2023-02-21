@@ -1,4 +1,4 @@
-package week1;
+package array.problem.bruteforce;
 
 import org.testng.annotations.Test;
 import java.util.Arrays;
