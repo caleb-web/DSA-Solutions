@@ -68,7 +68,7 @@ public class ArrayIndicesMatchingTargetSum {
 	//Brute Force Approach
 	private int[] getIndices(int[] numbers, int target) {
 		// Outer For loop
-		for (int i = 0; i < numbers.length; i++) {
+		for (int i = 0; i < numbers.length-1; i++) {
 			// Inner for loop
 			for (int j = i + 1; j < numbers.length; j++) {
 				if (numbers[i] + numbers[j] == target) {
